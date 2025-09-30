@@ -1,0 +1,112 @@
+body {
+  font-family: 'Press start 2P', sans-serif;
+  font-family: "Source Code Pro", monospace;
+  
+}
+
+
+#container{
+    background-color:white;
+    width: 0px;
+    height:0px;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+#cc{
+    display:flex;
+    background-color:#3F3D24;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#cc::before{
+    content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: url('https://i.pinimg.com/1200x/1c/86/8f/1c868fd2437be9cbcc012879d8d5a96f.jpg') center/cover no-repeat;
+  opacity: 0.3; /* регулируй прозрачность */
+  pointer-events: none; /* чтобы не мешать кликам по контенту */
+}
+
+#title{
+    font-size: 20px;
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    color: #821518;
+    text-shadow:
+    -1px -1px 0 white,
+     1px -1px 0 white,
+    -1px  1px 0 white,
+     1px  1px 0 white;
+    font-weight: bold;
+    position: absolute;
+    left: 40px;
+    top: 150px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#preview{
+    font-size: 15px;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style:normal;
+    color:white;
+    position:absolute;
+    left:20px;
+    top: 220px;
+    text-align:center
+}
+
+#aa{
+    font-size: 17px;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    position:absolute;
+    left: 115px;
+    top: 300px;
+    text-align: center;
+    text-decoration:underline;
+}
+#chose{
+    padding-top: 10px;
+    background-color: #b2b4ae;
+    font-family:"Source Code Pro", monospace;
+    font-weight: bold;
+    width: 330px;
+    height:110px;
+    font-size: 11px;
+    position: absolute;
+    left: 45px;
+    top: 400px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+a {
+    display: block;
+    margin: 10px 0;
+    padding: 12px 7px;
+    background-color:black;
+    color: white;
+    font-family:"Source Code Pro", monospace; 
+    font-size: 9px;
+    border-radius: 5px;
+    transition: background 0.3s;
+    position: absolute;
+    top:450px;
+    left: 60px;
+}
+a:hover{
+    background-color: #ff3333;
+}
+

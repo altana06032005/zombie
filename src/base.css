@@ -1,0 +1,31 @@
+body {
+  font-family: 'Press start 2P', sans-serif;
+  font-family: "Source Code Pro", monospace;
+  background-color: rgb(0, 0, 0);
+  
+}
+
+
+#c{
+    background-color:rgb(255, 128, 0);
+    width: 400px;
+    height:700px;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+#text {
+    color:#eeff00;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Press start 2P', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  line-height: 40px;
+  text-align: center;
+}
+}

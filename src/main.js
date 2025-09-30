@@ -1,0 +1,1 @@
+import './infected.css';
